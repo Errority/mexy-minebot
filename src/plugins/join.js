@@ -2,7 +2,7 @@ const mineFlayer = require('mineflayer');
 
 
 module.exports = bot => {
-  bot.on('spawn', () => {
+  bot.once('spawn', () => {
       bot.chat('allo');
   });
 };
